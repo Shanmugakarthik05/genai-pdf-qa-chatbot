@@ -20,7 +20,7 @@ Process user queries, retrieve relevant document sections, and generate response
 Test the chatbot with a variety of queries to assess accuracy and reliability.
 
 ### PROGRAM:
-```
+```PY
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter, RecursiveCharacterTextSplitter
 from langchain.vectorstores import DocArrayInMemorySearch
